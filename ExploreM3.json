@@ -1,39 +1,42 @@
 {
-    "packages":
-    [
+  "packages": [
+    {
+      "name": "ExploreEmbedded",
+      "maintainer": "ExploreEmbedded",
+      "websiteURL": "https://ExploreEmbedded.com",
+      "email": "support@exploreembedded.com",
+      "help": {
+        "online": "https://exploreembedded.com/wiki"
+      },
+      "platforms": [
         {
-            "name":"ExploreM3",
-            "maintainer":"ExploreEmbedded",
-            "websiteURL":"https://www.exploreembedded.com/",
-            "email":"support@exploreembedded.com",
-            "help":{ "online":"https://www.exploreembedded.com/wiki/index.php?title=Arduino%20Setup%20for%20Explore%20M3" },
-            "platforms": 
-            [
-                {
-                    "name": "ExploreEmbedded (32-bits ARM Cortex-M3)",
-                    "architecture": "NXP Cortex M3",
-                    "version": "0.1.1",
-                    "category": "Explore Cortex-M3",
-                    "url": "https://github.com/ExploreEmbedded/M3Test/blob/master/Explore-M3.zip",
-                    "archiveFileName": "Explore-M3.zip",
-                    "checksum": "SHA-256:040d81efa89f06b902b4d9ecdf5c8fa36b2db52f9295305cce70ab3198474849",
-                    "size": "5610622",
-                    "boards":
-                    [
-                        {"name": "Explore M3"}
-                    ],
-                    "toolsDependencies": 
-                    [
+          "name": "ExploreEmbedded ARM Boards",
+          "architecture": "CORTEX M3",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://github.com/ExploreEmbedded/M3Test/blob/master/Explore-M3.zip",
+          "archiveFileName": "Explore-M3.zip",
+          "checksum": "SHA-256:040d81efa89f06b902b4d9ecdf5c8fa36b2db52f9295305cce70ab3198474849",
+          "size": "19150",
+          "help": {
+            "online": "https://exploreembedded.com/wiki"
+          },
+          "boards": [
+            {
+              "name": "Explore M3"
+            }
+          ],
+          "toolsDependencies": [
                         {
                             "packager": "ExploreEmbedded",
                             "name": "arm-none-eabi-gcc",
                             "version": "4.9-2015-q3"
                         }
-                    ]
-                }
-            ],
-            "tools":
-            [
+          ]
+        }
+      ],
+      "tools": 
+      [
                 {
                     "name": "arm-none-eabi-gcc",
                     "version": "4.9-2015-q3",
@@ -70,6 +73,6 @@
                     ]
                 }
             ]
-        }
-    ]
+    }
+  ]
 }
