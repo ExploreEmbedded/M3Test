@@ -14,7 +14,7 @@
                     "architecture": "NXP Cortex M3",
                     "version": "0.1.1",
                     "category": "ExploreM3",
-                    "url": "https://github.com/ExploreEmbedded/M3Test/raw/master/Explore-M3.zip",
+                    "url": "https://raw.githubusercontent.com/ExploreEmbedded/M3Test/master/Explore-M3.zip",
                     "archiveFileName": "Explore-M3.zip",
                     "checksum": "SHA-256:040D81EFA89F06B902B4D9ECDF5C8FA36B2DB52F9295305CCE70AB3198474849",
                     "size": "5610622",
