@@ -1,46 +1,34 @@
 {
-  "packages": [
-    {
-      "name": "ExploreEmbedded",
-      "maintainer": "ExploreEmbedded",
-      "websiteURL": "https://ExploreEmbedded.com",
-      "email": "support@exploreembedded.com",
-      "help": {
-        "online": "https://exploreembedded.com/wiki"
-      },
-      "platforms": [
+    "packages":
+    [
         {
-          "name": "ExploreEmbedded AVR Boards",
-          "architecture": "avr",
-          "version": "1.0.0",
-          "category": "Contributed",
-          "url": "https://github.com/ExploreEmbedded/Arduino_Boards/raw/master/IDE_Board_Manager/exploreembeddedavrboards.zip",
-          "archiveFileName": "exploreembeddedavrboards.zip",
-          "checksum": "SHA-256:1BA073B66EA561CCD75069AC14E3FDD93E872AD6B5EA3DF46B8C79EF6A9666A2",
-          "size": "28563",
-          "help": {
-            "online": "https://exploreembedded.com/wiki"
-          },
-          "boards": [
-            {
-              "name": "ExploreEmbedded Atmega128"
-            }
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "arduino",
-              "name": "avr-gcc",
-              "version": "4.8.1-arduino5"
-            },
-            {
-              "packager": "arduino",
-              "name": "avrdude",
-              "version": "6.0.1-arduino5"
-            }
-          ]
+            "name":"ExploreM3",
+            "maintainer":"ExploreEmbedded",
+            "websiteURL":"https://www.exploreembedded.com/",
+            "email":"support@exploreembedded.com",
+            "help":{ "online":"https://www.exploreembedded.com/wiki/index.php?title=Arduino%20Setup%20for%20Explore%20M3" },
+            "platforms": 
+            [
+                {
+                    "name": "ExploreEmbedded (32-bits ARM Cortex-M3)",
+                    "architecture": "Explore-M3",
+                    "version": "1.0.0",
+                    "category": "ExploreM3",
+                    "url": "https://raw.githubusercontent.com/ExploreEmbedded/M3Test/master/Explore-M3.zip",
+                    "archiveFileName": "Explore-M3.zip",
+                    "checksum": "SHA-256:26d5b8a14db5c23bcc9737f54d6b16b7c4af79a8612b2f96ca2ecc78fc10a656",
+                    "size": "19649972",
+                    "boards":
+                    [
+                        {"name": "Explore M3"}
+                    ],
+                    "toolsDependencies": 
+                    [
+                    ]
+                }
+            ],
+            "tools":
+            []
         }
-      ],
-      "tools": []
-    }
-  ]
+    ]
 }
