@@ -12,11 +12,11 @@
                 {
                     "name": "ExploreEmbedded (32-bits ARM Cortex-M3)",
                     "architecture": "Explore-M3",
-                    "version": "1.0",
+                    "version": "1.0.0",
                     "category": "ExploreM3",
                     "url": "https://raw.githubusercontent.com/ExploreEmbedded/M3Test/master/Explore-M3.zip",
                     "archiveFileName": "Explore-M3.zip",
-                    "checksum": "SHA-256:4196627d3f4f1757a314a5e509da7dff9a042f1666b03abdc7f9335e9375f00e",
+                    "checksum": "SHA-256:26d5b8a14db5c23bcc9737f54d6b16b7c4af79a8612b2f96ca2ecc78fc10a656",
                     "size": "19649972",
                     "boards":
                     [
