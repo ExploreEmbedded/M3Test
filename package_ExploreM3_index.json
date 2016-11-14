@@ -25,7 +25,7 @@
                     "toolsDependencies": 
                     [
                        {
-                            "packager": "RedBear",
+                            "packager": "ExploreM3",
                             "name": "arm-none-eabi-gcc",
                             "version": "4.8.3-2014q1"
                         }
